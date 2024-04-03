@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: PP Parogram sans;
+    src: url(/images/fonts/PP\ Pangram\ Sans\ Rounded\ Exbold.woff2);
+}
+
+        // cotigory   start
+
+body{
+    background-color: #F4F4F4;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.cotigory-list-button{
+    position: relative;
+
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.cotigory-text{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 0px 0px 48px 0px;
+}
+
+.cotigory-list-btn{
+    padding: 12px 20px 12px 20px;
+    border: 1px solid #000;
+}
+
+.cotigory-list-btn{
+    border-radius: 8px;
+}
+
+.cotigory-text h2{
+    font-family: "Unbounded";
+    font-weight: 700;
+    line-height: 62px;
+    font-size: 48px;
+}
+
+.cotigory-list-button{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 13px;
+    padding: 27px 30px 27px 30px;
+    border: none;
+    border-radius: 10px; display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cotigory-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cotigory-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.cotigory-image{
+    background-color: #fff;
+    max-width: 424px;
+    height: 483px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.cotigory-button-top > button{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 9px;
+    font-size: 9px;
+    padding: 9px 10px 9px 10px;
+    color: #1F1F1F;
+    position: absolute;
+    left: 341px;
+    top: 24px;
+    border: none;
+    background-color: #F0F0F0;
+    border-radius: 6px;
+}
+
+.cotigory-card{
+    padding: 66px 69px 40px 69px;
+}
+
+.cotigory-subtitle > strong{
+    padding: 40px 239px 0px 50px;
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.cotigory-title{
+    padding: 30px 145px 34px 50px;
+    display: flex;
+    gap: 0 20px; 
+}
+
+.cotigory-title  span{
+    white-space: nowrap;
+    align-items: center;
+    gap: 15px;
+    display: flex;
+}
+
+.cotigory-line{
+    width: 324px;
+    border: 1px solid #EBEBEB;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.cotigory-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cotigory-button > button{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.cotigory-button > span{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 40px 46px 60px 57px;
+}
+
+.cotigory-button > span {
+    color: grey;
+}
+
+.cotigory-button > span > strong{
+    color: #000;
+}
+
+.cotigory-button > button{
+    font-family: "PP Pangram Sans";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px 20px 10px 20px;
+    background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    margin: 30px 27px 50px 50px;
+}
+
+                // cotigory    end
+
+                //content    start
+
+
+.content-text > h2{
+    font-family: "PP Pangram Sans";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    padding: 120px 0px 0px 0px ;
+}
+
+.content-text > p{
+    font-family: "PP Pangram Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 36px 0px;
+}
+
+
+                //content   end
+
+                // image  start
+
+.image{
+    background-image: url(/images/back.png);
+    height: 764px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1860px;
+}
+
+.image-text > h2{
+    font-family: "Unbounded";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    color: #fff;
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 136px;
+}
+
+ .image-list > h2{
+    font-family: "PP Pangram Sans";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    width: 760px;
+    height: 266px;
+    margin: 70px 0px 36px 0px;
+    color: #fff;
+ } 
+
+
+ .image-list > p{
+    font-family: "PP Pangram Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+ }   
+
+.image-form{
+    padding: 70px 0px;
+}
+
+.image-form-btn{
+    width: 424px;
+    height: 76px;
+    font-family: "PP Pangram Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 28px 0px 28px 30px;
+}
+
+.image-form-btn2{
+    width: 424px;
+    height: 76px;
+    margin: 14px 0px    ;
+    font-family: "PP Pangram Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 28px 0px 28px 30px;
+}
+
+.image-button{
+    width: 424px;
+    height: 76px;
+    font-family: "PP Pangram Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+}
+.image-link {
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.image-link-span > span{
+    font-family: "PP Pangram Sans";
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.image-link-span{
+    color: grey;
+}
+
+.image-title-list{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 0 14px;
+}
+
+
+            // image  end
+
+            // rule   start
+
+.rule{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.rule-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rule-wrapper-title h2{
+    font-family: "Unbounded";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62px;
+    padding: 120px 0px 0px 0px;
+    // margin-left: 115px;
+}
+
+
+.rule-title > h3{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    font-size: 20px;
+    margin: 0px 0px 22px 50px;
+}
+
+.rule-title > p{
+    font-family: "PP Pangram Sans";
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    font-size: 16px;
+    margin: 22px 50px 22px 50px;
+}
+
+.rule-wrapper{
+    padding: 60px 24px 50px 0px;
+}
+
+.rule-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rule-title > div > h3{
+    margin: 50px 0px 0px 50px;
+}
+
+.rule-title > div > p{
+    margin: 22px 0px 50px 50px;
+}
+
+.rule-list{
+    width: 54px;
+    height: 54px;
+    border: 2px solid #EBEBEB;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rule-list{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEBEB;
+}
+
+            // rule    end
+
+            // document  start
+
+.document-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.document{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.document-text{
+    font-family: "Unbounded";
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.document-btn{
+    display: flex;
+    gap: 22px;
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.document-list > h3{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.document-list > p{
+    font-family: "PP Pangram Sans";
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.document-title {
+    position: relative;
+    span {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+            // document   end
+
+             // service   start
+
+.service{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.service-main-wrepper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-wrapper img{
+    padding: 60px 24px 42px 0px;
+}
+.service-title {
+    width: 424px;
+}
+.service-title h2{
+    font-family: "Unbounded";
+    font-weight: 700;
+    line-height: 62px;
+    text-align: left;
+    font-size: 48px;
+    margin: 120px 0px 0px 0px;
+}
+
+.service-text h3{
+    font-family: "PP Pangram Sans";
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.service-footer {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    padding-left: 5px;
+}
+
+.service-list{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBEBEB;
+    border: 2px solid grey;
+}
+
+.active{
+    gap:0 190px;
+}
+
+             // service  end
